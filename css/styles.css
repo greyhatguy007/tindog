@@ -1,0 +1,174 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 40%;
+    border-style: dotted none none none;
+    border-width: 10px;
+    border-color: red;
+    margin: 0 auto;
+}
+
+.intro-text {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 5rem 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 2.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+.iphone-img {
+    width: 350px;
+    padding-top: 2rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0px 2.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .iphone-img {
+        transform: rotate(25deg);
+    }
+}
+
+
+/*---------Features -------------*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 30px;
+}
+
+.feature-box>p {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#features h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-img {
+    color: #ef8172;
+}
+
+.feature-img:hover {
+    color: #ff4c68;
+}
+
+
+/*--------Testimonials--------------*/
+
+#testimonials {
+    padding: 7% 15% 7% 15%;
+    background-color: #ef8172;
+}
+
+#testimonials p {
+    font-family: "Monserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    padding-bottom: 0.5rem;
+}
+
+
+/*----------press-----------*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#carousel {
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    width: 350px;
+}
+
+
+/*---------Pricing--------*/
+
+.price-item {
+    text-align: center;
+    margin: 1rem;
+    border: solid black 4px;
+    padding-bottom: 3rem;
+    max-height: 400px;
+}
+
+.item-heading {
+    background-color: rgb(181, 167, 167);
+    border-bottom: solid black 2px;
+}
+
+.item-heading h3 {
+    font-size: 2rem;
+}
+
+.item-price {
+    font-size: 3.25rem;
+    padding: 1rem 0;
+}
+
+
+/* -----------------Cta section--------------------------- */
+
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.contact {
+    margin: 0 auto;
+}
